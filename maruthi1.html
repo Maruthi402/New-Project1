@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./maru.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #myBtn{
+        display: none;
+        position: fixed;
+        overflow: hidden;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding:15px;
+        border-radius: 50%;
+      }
+      #myBtn:hover{
+        background-color: firebrick;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="home">
+      <header>
+        <nav>
+          <ul class="ul1">
+            <li id="icon">
+              <h1><a href="#">Portfolio</a></h1>
+            </li>
+            <span>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#footer">Contacts</a></li>
+            </span>
+          </ul>
+        </nav>
+      </header>
+      <div class="body-home">
+        <p>HELLO, I'M</p>
+        <h1>Maruthi</h1>
+        <p>Web Developer</p>
+        <a href="#" class="resume">Download Resume</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="profile-img w-50">
+        <img src="./images/maruthi photo3.jpg" alt="Maruthi photo" />
+      </div>
+      <div class="profile-img content w-50">
+        <div class="header">
+          <h1>About Me</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aut fugiat corrupti voluptatum, aperiam perferendis quibusdam veniam reprehenderit pariatur quo repellendus optio nesciunt labore praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, unde.</p>
+        <div class="skills">
+          <ul>
+            <li>Skills</li>
+            <li>Experience</li>
+            <li>Education</li>
+          </ul>
+        </div>
+        <div class="table-skills">
+          <table>
+            <tr>
+              <td>
+                React
+                <div id="progressbar">
+                  <div class="div1"></div>
+                </div>
+              </td>
+              <td id="td-1">90%
+
+              </td>
+
+            </tr>
+            <td>Angular
+              <div id="progressbar">
+                <div class="div2"></div>
+              </div>
+            </td>
+            <td id="td-1">80%</td>
+            </tr>
+            <tr>
+              <td>MongoDB
+                <div id="progressbar">
+                  <div class="div3"></div>
+                </div>
+              </td>
+              <td id="td-1">10%</td>
+            </tr>
+            <tr>
+              <td>PHP
+                <div id="progressbar">
+                  <div class="div4"></div>
+                </div>
+              </td>
+              <td id="td-1">100%</td>
+            </tr>
+            <tr>
+              <td>MySQL
+                <div id="progressbar">
+                  <div class="div5"></div>
+                </div>
+              </td>
+              <td id="td-1">60%</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- Count -->
+    <section class="count">
+      <table>
+        <tr class="th-count">
+          <th>5 <span class="plus">+</span></th>
+          <th>100 <span class="plus">+</span> </th>
+          <th>5</th>
+          <th>10 <span class="plus">+</span> </th>
+        </tr>
+        <tr class="td-count">
+          <td>5 Years of Experience</td>
+          <td>Clients Worked With</td>
+          <td>Certifications</td>
+          <td>Honourable Awards</td>
+        </tr>
+      </table>
+    </section>
+    <!-- End Count -->
+    <!-- Services -->
+    <section class="services" id="services">
+      <h1>MY SERVICES</h1>
+      <div class="service-card">
+        <div class="divi">
+          <span class="logo-img">
+          <img src="./icons/cloud.png" alt="cloud">  
+          </span>
+          <h2>Mobile App Development</h2>
+          <ul class="li1">
+            <li>Lorem, ipsum . Sed, magni!</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </div>
+        <div class="divi divii">
+          <span class="logo-img">
+            <img src="./icons/internet.png" alt="internet">
+          </span>
+          <h2>Web Development</h2>
+          <ul class="li1">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+          </ul>
+        </div>
+        <div class="divi divii">
+          <span class="logo-img">
+            <img src="./icons/ipad.png" alt="ipad">
+          </span>
+          <h2>Emial Marketing</h2>
+          <ul class="li1">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </div>
+        <div class="divi">
+          <span class="logo-img">
+            <img src="./icons/mail.png" alt="mail">
+          </span>
+          <h2>Mobile App Development</h2>
+          <ul class="li1">
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </div>
+        <div class="divi divii">
+          <span class="logo-img">
+            <img src="./icons/seo.png" alt="seo">
+          </span>
+          <h2>Web Development</h2>
+          <ul class="li1">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </div>
+        <div class="divi divii">
+          <span class="logo-img">
+            <img src="./icons/sketch.png" alt="Sketch">
+          </span>
+          <h2>Email Marketing</h2>
+          <ul class="li1">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- PROJECT -->
+    <section class="project" id="portfolio">
+      <h1>RECENT PROJECTS</h1>
+      <div class="project-card container">
+        <img src="./images/Coffee new.jpg" alt="Coffee">
+        <div class="bottom-left">Photo Shop With UX Desinger</div>
+      </div>
+      <div class="project-card container1">
+        <img src="./images/Google.jpg" alt="Google">
+        <div class="bottom-left">Photo Shop with UX Designer</div>
+      </div>
+      <div class="project-card container">
+        <img src="./images/photographer.jpg" alt="Coffee">
+        <div class="bottom-left">Photo Shop With UX Desinger</div>
+      </div>
+      <div class="project-card container1">
+        <img src="./images/Watch (2).jpg" alt="Watch" />
+        <div class="bottom-left">photo shop with Ux Designer</div>
+      </div>
+    </section>
+    <!-- End Project -->
+    <!-- Testmonials -->
+    <section class="testmonials" id="testimonials">
+      <h1>Recent Testmonials</h1>
+      <img class="test-col1" src="./images/maruthi photo3.jpg"   />
+      <div class="test-col2">
+        <img class="rt" src="./icons/qleft.png" alt="rt" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel est
+          eu tortor porttitor congue. Praesent finibus eleifend mi, eu dictum
+          est scelerisque ut. Nulla sed nulla sed tellus feugiat dignissim a
+          pulvinar sem.
+        </p>
+        <h2 class="test-p">Maruthi</h2>
+        <p class="test-p">Web Developer</p>
+        <img class="lb" src="./icons/qright.png" alt="lb" />
+      </div>
+    </section>
+    <!-- End testmonials -->
+    <!-- Clients -->
+    <section class="clients" id="clients">
+      <h1>PREVIOUS CLIENTS</h1>
+      <div class="faS">
+        <i class="fa-solid fa-cloud"><p>Company</p></i>
+        <i class="fa-solid fa-car"><p>Company</p></i>
+        <i class="fa fa-house-user"><p>Company</p></i>
+        <i class="fa-sharp fa-solid fa-share"><p>Company</p></i>
+        <i class="fa-brands fa-bluetooth"><p>Company</p></i>
+        <i class="fa fa-wifi"><p>Wifi</p></i>
+        <i class="fa-brands fa-amazon"><p>Amazon</p></i>
+        <i class="fa-brands fa-android"><p>Android</p></i>
+        <i class="fa-brands fa-apple"><p>Apple</p></i>
+        <i class="fa fa-bitcoin-sign"><p>BitCoin</p></i>
+        <i class="fa-brands fa-cc-visa"><p>Visa</p></i>
+        <i class="fa-brands fa-dropbox">Dropbox</i>
+      </div>
+    </section>
+    <!-- End Clients -->
+    <!-- Get In Touch -->
+    <section class="touch" id="footer">
+      <h1>Recent Testmonials</h1>
+      <form class="touch-col">
+        <p>Get in Touch</p>
+        <input  class="input" type="text" value="Name" />
+        <input type="email" class="input" value="Email"/>
+        <input type="number" class="input" value="Phone"/>
+        <textarea class="input">Message....</textarea>
+        <button class="button" type="submit">Submit</button>
+      </form>
+      <div class="touch-col1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61048.04063874434!2d79.92753946889343!3d16.999002657883043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3502557bd86187%3A0x2d61225ca7dbad8f!2sKodad%2C%20Telangana%20508206!5e0!3m2!1sen!2sin!4v1642766402320!5m2!1sen!2sin" width="600" height="505" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    <footer class="footer">
+      <!-- contact -->
+      <div>
+        <div class="cont-card">
+          <div class="circle">
+            <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <h1>Email</h1>
+                      <a href="send">email@yoursite.com</a>
+
+        </div>
+        <div class="cont-card">
+          <div class="circle">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h1>Phone</h1>
+          <a href="send">+91-7032695841</a>
+        </div>
+        <div class="cont-card">
+          <div class="circle">
+            <i class="fa-solid fa-location-pin"></i>
+          </div>
+          <h1>Address</h1>
+          <a href="send">Kodad, Telangana</a>
+        </div>
+      </div>
+      <div class="footer-end">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </footer>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function(){
+        scrollFunction();
+        
+      }
+      function scrollFunction(){
+        if(
+          document.body.scrollTop>20 ||document.documentElement.scrollTop > 20
+        ){
+          mybutton.style.display = "block";
+        }else{
+          mybutton.style.display = "none";
+        }
+      }
+      //When the user clicks on the botton scroll to the top of the document
+      function topFunction(){
+        document.bodyscrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+  </body>
+</html>
